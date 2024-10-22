@@ -1,0 +1,14 @@
+.container{
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  border:1px solid;
+  padding: 10px;
+  
+}
+
+@media screen and (width > 700px) {
+  .container{
+    padding: 30px;
+  }
+}
